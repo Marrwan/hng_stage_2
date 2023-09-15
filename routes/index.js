@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { check, validationResult } = require('express-validator');
-const Person = require('../models/person');
+const Person = require('../models/Person');
 
 // Validation middleware
 const validate = [
