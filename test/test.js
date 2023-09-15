@@ -1,6 +1,6 @@
 const chai = require('chai');
 const chaiHttp = require('chai-http');
-const server = require('./your-express-server'); // Replace with your server setup
+const server = require('../app'); 
 const should = chai.should();
 
 chai.use(chaiHttp);
