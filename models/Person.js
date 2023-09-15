@@ -1,0 +1,11 @@
+
+const mongoose = require('mongoose');
+
+const personSchema = new mongoose.Schema({
+  name: String,
+  age: Number,
+  // Add other fields as needed
+});
+
+module.exports = mongoose.model('Person', personSchema);
+ 
