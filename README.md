@@ -20,7 +20,7 @@ This documentation outlines the usage of the Person API, which allows you to per
 ```json
 POST /api
 {
-  "name": "John Doe",
+  "name": "Afnaan Dhunurayn",
   "age": 30
 }
 ```
@@ -36,7 +36,7 @@ age (number): The age of the created person.
 #### Sample Response
 ```json
 {
-  "name": "John Doe",
+  "name": "Afnaan Dhunurayn",
   "age": 30
 }
 ```
@@ -62,7 +62,7 @@ age (number): The age of the retrieved person.
 ####  Response
 ```json
 {
-  "name": "John Doe",
+  "name": "Afnaan Dhunurayn",
   "age": 30
 }
 ```
