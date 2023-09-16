@@ -5,8 +5,8 @@ const Person = require('../models/Person');
 
 // Validation middleware
 const validate = [
-  check('name').notEmpty().withMessage('Name cannot be empty').isString().withMessage('Name must be a string'),
-  check('age').notEmpty().withMessage('Age must not be empty').isNumeric().withMessage('Age must be a number'),
+  check('name').notEmpty().withMessage('Name cannot be empty, fill in the required').isString().withMessage('Name must be a string'),
+  check('age').optional().isNumeric().withMessage('Age must be a number'),
 ];
 
 // CREATE: Adding a new person
